@@ -199,7 +199,7 @@ shinyApp(ui, server)
 include_vimeo("307597631")
 ```
 
-Figure \@ref(fig:shiny-drag-circle) demonstrates directly manipulating a circle shape and accessing the new positions of the circle. In constrast to Figure \@ref(fig:shiny-edit-annotations), which made everything (e.g. the plot and axis titles) editable via `config(p, editable = TRUE)`, note how Figure \@ref(fig:shiny-drag-circle) makes use of the `edits` argument to make only the shapes editable. 
+Figure \@ref(fig:shiny-drag-circle) demonstrates directly manipulating a circle shape and accessing the new positions of the circle. In contrast to Figure \@ref(fig:shiny-edit-annotations), which made everything (e.g. the plot and axis titles) editable via `config(p, editable = TRUE)`, note how Figure \@ref(fig:shiny-drag-circle) makes use of the `edits` argument to make only the shapes editable. 
 
 ```{r eval = FALSE, summary = "Click to show/hide the code"}
 library(shiny)
